@@ -1,0 +1,14 @@
+.developers-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.developer-container{
+    border-right: 1px solid gray;
+    margin-left: 5px;
+}
+.cart-container{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 180px;
+  
+}

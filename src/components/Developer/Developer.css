@@ -1,0 +1,30 @@
+.dev-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+}
+.developer {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px gray;
+    transform: translate(25,5);
+}
+.developer img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 8px;
+}
+.cart-btn{
+    width: 170px;
+    height: 36px;
+    border-style: none;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
